@@ -25,6 +25,7 @@
         android:textSize="36sp"/>
 
     <TextView
+        
         android:textColor="@android:color/white"
         android:layout_margin="20dp"
         android:fontFamily="sans-serif-light"
