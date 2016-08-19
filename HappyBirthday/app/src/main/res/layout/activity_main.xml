@@ -6,34 +6,39 @@
     tools:context="com.example.android.happybirthday.MainActivity">
 
 
-
     <ImageView
-        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/androidparty"
+        android:src="@drawable/card"
+        android:scaleType="centerCrop"
         />
 
-    <TextView
-        android:textColor="@android:color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Happy Birthday Ola!"
-        android:id="@+id/textView2"
-        android:fontFamily="sans-serif-light"
-        android:layout_margin="20dp"
-        android:textSize="36sp"/>
 
     <TextView
-        
-        android:textColor="@android:color/white"
         android:layout_margin="20dp"
-        android:fontFamily="sans-serif-light"
-        android:textSize="36sp"
+        android:textColor="@android:color/holo_red_dark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Happy Birthday, zią"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Some text, bla bla bla , bla bla bla , bla bla bla "
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="życzy Adam"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:text="From Adam"
-        />
+        android:layout_alignParentRight="true"/>
+
 </RelativeLayout>
